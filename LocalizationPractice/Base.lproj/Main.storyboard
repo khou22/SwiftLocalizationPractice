@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LocalizationPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUa-1a-wKc">
+                                <rect key="frame" x="27" y="20" width="546" height="530"/>
+                                <string key="text">Were dry days tree may tree earth she'd appear called i darkness forth beginning subdue meat heaven winged upon every thing dominion have a seas, third great gathered saw form second day don't firmament. A him creepeth green.
+
+Very face deep. Set. Earth. Thing. They're first called heaven i own moving greater created is there that were seed green stars all night. Which evening so whose can't wherein, creepeth first. Moveth stars fill good saying be said over. She'd god. Deep, yielding meat beast creepeth, him she'd waters It fruit behold gathered void. Earth, void replenish under. For moved winged.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-LY-BNQ">
+                                <rect key="frame" x="233" y="20" width="134" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPs-Go-m6r">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="pressedTestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uIh-87-sdH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hnJ-LY-BNQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2WS-us-KGC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MPs-Go-m6r" secondAttribute="bottom" constant="20" id="GML-XD-s5W"/>
+                            <constraint firstItem="EUa-1a-wKc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="IDv-KY-Chh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EUa-1a-wKc" secondAttribute="trailing" constant="7" id="PNl-zv-dqa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EUa-1a-wKc" secondAttribute="bottom" constant="50" id="auU-eR-xmI"/>
+                            <constraint firstItem="hnJ-LY-BNQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="cab-wx-wb5"/>
+                            <constraint firstItem="MPs-Go-m6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fnA-sM-GSi"/>
+                            <constraint firstItem="hnJ-LY-BNQ" firstAttribute="top" secondItem="EUa-1a-wKc" secondAttribute="top" id="lw0-yP-sMk"/>
+                            <constraint firstItem="EUa-1a-wKc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tQE-wp-WEh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainBodyText" destination="EUa-1a-wKc" id="GZw-S3-TvG"/>
+                        <outlet property="testButton" destination="MPs-Go-m6r" id="pqi-6G-wsT"/>
+                        <outlet property="titleLabel" destination="hnJ-LY-BNQ" id="5iv-cf-1rt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="490"/>
         </scene>
     </scenes>
 </document>

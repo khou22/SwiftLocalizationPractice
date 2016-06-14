@@ -12,6 +12,8 @@
 		27CAF3E41D107512001AAE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CAF3E21D107512001AAE06 /* Main.storyboard */; };
 		27CAF3E61D107512001AAE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CAF3E51D107512001AAE06 /* Assets.xcassets */; };
 		27CAF3E91D107512001AAE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CAF3E71D107512001AAE06 /* LaunchScreen.storyboard */; };
+		27CAF3F41D107DFD001AAE06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27CAF3F61D107DFD001AAE06 /* InfoPlist.strings */; };
+		27CAF3F91D107DFE001AAE06 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27CAF3FB1D107DFE001AAE06 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		27CAF3E51D107512001AAE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27CAF3E81D107512001AAE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27CAF3EA1D107512001AAE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CAF3F01D107AA1001AAE06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		27CAF3F11D107AA1001AAE06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		27CAF3F51D107DFD001AAE06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27CAF3FA1D107DFE001AAE06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		27CAF3DD1D107512001AAE06 /* LocalizationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				27CAF3FB1D107DFE001AAE06 /* Localizable.strings */,
+				27CAF3F61D107DFD001AAE06 /* InfoPlist.strings */,
 				27CAF3DE1D107512001AAE06 /* AppDelegate.swift */,
 				27CAF3E01D107512001AAE06 /* ViewController.swift */,
 				27CAF3E21D107512001AAE06 /* Main.storyboard */,
@@ -122,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CAF3F91D107DFE001AAE06 /* Localizable.strings in Resources */,
 				27CAF3E91D107512001AAE06 /* LaunchScreen.storyboard in Resources */,
+				27CAF3F41D107DFD001AAE06 /* InfoPlist.strings in Resources */,
 				27CAF3E61D107512001AAE06 /* Assets.xcassets in Resources */,
 				27CAF3E41D107512001AAE06 /* Main.storyboard in Resources */,
 			);
@@ -147,6 +157,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				27CAF3E31D107512001AAE06 /* Base */,
+				27CAF3F01D107AA1001AAE06 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +166,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				27CAF3E81D107512001AAE06 /* Base */,
+				27CAF3F11D107AA1001AAE06 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27CAF3F61D107DFD001AAE06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CAF3F51D107DFD001AAE06 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27CAF3FB1D107DFE001AAE06 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CAF3FA1D107DFE001AAE06 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +314,7 @@
 				27CAF3EF1D107512001AAE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

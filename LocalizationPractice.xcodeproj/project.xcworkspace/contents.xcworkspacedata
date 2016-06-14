@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LocalizationPractice.xcodeproj">
+      location = "self:/Users/KevinHou/Documents/Programming/Xcode Practice/SwiftLocalizationPractice/LocalizationPractice.xcodeproj">
    </FileRef>
 </Workspace>
