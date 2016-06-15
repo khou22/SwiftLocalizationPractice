@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizationPractice/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body/>
+  </file>
+  <file original="LocalizationPractice/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="EUa-1a-wKc.text">
+        <source>Were dry days tree may tree earth she'd appear called i darkness forth beginning subdue meat heaven winged upon every thing dominion have a seas, third great gathered saw form second day don't firmament. A him creepeth green.
+
+Very face deep. Set. Earth. Thing. They're first called heaven i own moving greater created is there that were seed green stars all night. Which evening so whose can't wherein, creepeth first. Moveth stars fill good saying be said over. She'd god. Deep, yielding meat beast creepeth, him she'd waters It fruit behold gathered void. Earth, void replenish under. For moved winged.</source>
+        <note>Class = "UILabel"; text = "Were dry days tree may tree earth she'd appear called i darkness forth beginning subdue meat heaven winged upon every thing dominion have a seas, third great gathered saw form second day don't firmament. A him creepeth green.\n\nVery face deep. Set. Earth. Thing. They're first called heaven i own moving greater created is there that were seed green stars all night. Which evening so whose can't wherein, creepeth first. Moveth stars fill good saying be said over. She'd god. Deep, yielding meat beast creepeth, him she'd waters It fruit behold gathered void. Earth, void replenish under. For moved winged."; ObjectID = "EUa-1a-wKc";</note>
+      </trans-unit>
+      <trans-unit id="MPs-Go-m6r.normalTitle">
+        <source>Button</source>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "MPs-Go-m6r";</note>
+      </trans-unit>
+      <trans-unit id="hnJ-LY-BNQ.text">
+        <source>This is Text</source>
+        <note>Class = "UILabel"; text = "This is Text"; ObjectID = "hnJ-LY-BNQ";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationPractice/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationPractice/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="Button">
+        <source>Button</source>
+        <note>Label on the button</note>
+      </trans-unit>
+      <trans-unit id="Button Was Pressed">
+        <source>Button Was Pressed</source>
+        <note>Label on the button</note>
+      </trans-unit>
+      <trans-unit id="This is a hard coded string in English">
+        <source>This is a hard coded string in English</source>
+        <note>This is a test for a hard coded string</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
