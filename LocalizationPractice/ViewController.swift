@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         mainBodyText.numberOfLines = 0 // Set number of lines to 0 for word wrap
-        testButton.setTitle(NSLocalizedString("Button", comment: "Label on the button"), forState: .Normal)
     }
 
     override func didReceiveMemoryWarning() {
