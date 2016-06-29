@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressedTestButton(sender: AnyObject) {
-        mainBodyText.text = NSLocalizedString("This is a hard coded string in English", comment: "This is a test for a hard coded string")
+        let varInsert = "1"
+        mainBodyText.text = String.localizedStringWithFormat(NSLocalizedString("This is a hard coded string in %@", comment: "Hard coded string with variable"), varInsert)
         testButton.setTitle(NSLocalizedString("Button Was Pressed", comment: "Label on the button"), forState: .Normal)
     }
 

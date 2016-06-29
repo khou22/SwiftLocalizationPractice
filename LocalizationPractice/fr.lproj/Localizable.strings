@@ -1,9 +1,6 @@
 /* Label on the button */
-"Button" = "Bouton";
-
-/* Label on the button */
 "Button Was Pressed" = "Bouton a été pressé";
 
-/* This is a test for a hard coded string */
-"This is a hard coded string in English" = "Ceci est une chaîne codée en dur en français";
+/* Hard coded string with variable */
+"This is a hard coded string in %@" = "French: This is a hard coded string in %@";
 
